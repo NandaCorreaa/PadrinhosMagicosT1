@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  cursor: url("data:image/x-icon;base64,AAACAAEAICAQAAAAAADoAgAAFgAAACgAAAAgAAAAQAAAAAEABAAAAAAAAAIAAAAAAAAAAAAAEAAAAAAAAAC6//oAAAAAAGnw+gA+bIwAADlhAABSjABQz+YAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEREREREREREREREREREVRRERERERERERERERERERVFMRERERERERERERERERFUUzEREREREREREREREREVRTMRERERERERERERERERVFMxERERERERERERERERFUUzEREREREREREREREREVRTMRERERERERERERERERVFMxERERERERERERERERFUUzEREREREREREREREREVRTMRERERERERERERERERVFMxERERERERERERERERFUUzEREREREREREREREREVRTMRERERERERERERERERVFMxERERERERERERERERFUUzERERERERERERFmEREVRTMRERERERERERERZhERVFMxERERERERERERFgYRFUUzERERERERERERERYgYVRTMRERERERERERERFmIGVFMxERERERERERFmZmZiBkUzERERERERERERYAAGYgBTMREREREREREREWYiIGIGZmYREREREREREREWZiJiZmZmZmEREREREREREWZmJiIiIAZhEREREREREREWAiJgAAZhERERERERERERYAJiZmBhEREREREREREREWAmYCZmERERERERERERERYCZmAmZhEREREREREREREWBmYWAmYRERERERERERERYGYREWAmERERERERERERESYREREWBhERERERERERERH////4////8P///+D////B////g////wf///4P///8H///+D////B////g////wf///4P///8H///+D//+fB///ng///xwf//8IP//+AH//wAD//8AB///AAP//4AAf//AAH//4AH//8AH///AD///gA///4IP//8PD///P4///w=="), auto;
+}
+
+header {
+  background-color: #111111;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 15vh;
+}
+header section {
+  width: 30%;
+  height: 10vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+header section button {
+  color: #fff;
+  border: none;
+  font-size: 32px;
+  padding: 10px;
+  border-radius: 10px;
+}
+header section .botaoVermelho {
+  background-color: #DF0712;
+}
+header section .botaoPreto {
+  background-color: transparent;
+  border: solid 1px #fff;
+}
+
+.tituloEpisodios {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 30vh;
+}
+.tituloEpisodios h2 {
+  font-size: 64px;
+}
+
+main {
+  background-color: #181818;
+  color: #fff;
+  height: 110vh;
+}
+
+.episodios {
+  height: 70vh;
+  display: flex;
+  justify-content: space-around;
+}
+.episodios section {
+  width: 30%;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.episodios section h3 {
+  font-size: 36px;
+}
+.episodios section p {
+  font-size: 24px;
+}/*# sourceMappingURL=style.css.map */
